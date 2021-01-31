@@ -1,10 +1,8 @@
-var http =require ('http');
+const app =require ("express")();
 const Port = process.env.Port || 3000;
-var server = http.createServer(function (req,res) {
-    res.end('server works by smitha patil !!!');
+app.get("",(req,res)=>{
+    res.send("hello world");
 });
-server.listen(Port,'localhost',function () {
-    console.log('server started on the port:3000');
+app.listen(Port,()=>{
+    console.log('app up at port ${port}');
 });
-
-
