@@ -8,5 +8,9 @@
       "start": "node ./app.js"
   },
   "author": "smitha",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
