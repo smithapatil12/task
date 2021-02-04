@@ -1,5 +1,5 @@
 var http =require ('http');
-var PORT = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 var server = http.createServer(function (req,res) {
     res.end('server works by smitha patil !!!');
 });
